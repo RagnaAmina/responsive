@@ -1,0 +1,73 @@
+
+
+/*broser*/
+
+@media only screen and (max-width: 300px) {
+     body{
+        background-color: red;
+      }
+      .container {
+      
+        float:left;
+        flex-flow: row wrap;
+        justify-content:space-between;
+        }
+       
+}   
+
+
+    @media only screen and (min-width: 300px) {
+        body {
+            display: flex;
+            flex-wrap:wrap;
+            background-color: green;
+          }
+       
+            }
+            #small {
+                width: 25%;
+                display:inline-block;
+            }
+            #medium {
+                width: 75%;
+                display:inline-block;
+                float:left;
+            }
+               #large{
+                width: 100%;
+              
+            }
+    }   
+   
+  @media only screen and ( max-width: 768px) {
+       }
+
+  @media only screen and ( min-width: 768px) {
+        body{
+                background-color: blue;
+              }
+        .container{
+              
+                float:left;
+          
+              }
+              #small {
+                width: 33%;
+                display:inline-block;
+            }
+            #medium {
+                width: 33%;
+                display:inline-block;
+            }
+               #large{
+                width: 33%;
+                display:inline-block;
+            }
+    }   
+            
+
+  
+              
+            
+ 
+ /*tablet*/
